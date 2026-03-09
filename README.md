@@ -40,7 +40,7 @@ pipeline {
         stage('Checkout') { 
             steps {
                 // Specifically pulling from the 'main' branch
-                git branch: 'main', url: '[https://github.com/amanAtGit03/jenkins-pipeline-test.git](https://github.com/amanAtGit03/jenkins-pipeline-test.git)' 
+                git branch: 'main', url: 'https://github.com/amanAtGit03/jenkins-pipeline-test.git' 
             }
         }
         
